@@ -1,18 +1,11 @@
-/*Global-------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
 }
-/*Body--------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------*/
 body {
     width: 100%;
 }
-/*Header/NAV--------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,14 +32,6 @@ nav, a {
     background-size: cover;
     background-position: center;
 }
-/*Body--------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------*/
-body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: auto;
-}
-/*Section-----------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------------------*/
 section {
     display: block;
     box-sizing: border-box;
@@ -55,7 +40,7 @@ section {
     max-width: 72%;
     padding: 50px;
     height: 300px;
-    font-family: 'serif', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'serif',;
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -71,19 +56,17 @@ section h1 {
 .pleft {
     padding: 40px;
 }
+.image-1, .image-2, .image-3 {
+    max-height: 200px;
+}
 .image-1, .image-3 {
     float: left;
     margin-right: 25px;
-    max-height: 200px;
 }
 .image-2 {
     float: right;
     margin-left: 25px;
-    max-height: 200px
 }
-/*Aside-------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------*/
-
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -91,7 +74,7 @@ aside {
     float: right;
     width: 20%;
     height: 100%;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans',;
     background-color: #2589bd;
     color: #ffffff;
 } 
