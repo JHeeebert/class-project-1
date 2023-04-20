@@ -3,9 +3,6 @@
     padding: 0;
     margin: 0;
 }
-body {
-    width: 100%;
-}
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,47 +14,35 @@ h1 {
     font-size: 48px;
 }
 nav, a {
+    font-size: 20px;
+    padding: 10px;
     float: right;
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    list-style: none;
     text-decoration: none;
-    padding: 10px;
 }
 .meeting{
-    height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
 }
 section {
-    display: block;
     box-sizing: border-box;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    max-width: 72%;
-    padding: 50px;
-    height: 300px;
-    font-family: 'serif',;
+    margin: 20px;
+    max-width: 75%;
+    padding: 25px;
     background-color: #0072bb;
     color: #ffffff;
 }
 section h1 {  
-    margin-bottom: 20px; 
     font-size: 36px;
 }
-.pleft, .pright {
-    margin: 10px;
-    padding-top: 25px;
-    font-size: 16px;
-}
-.pleft {
-    padding: 40px;
+.pright, .pleft {
+    padding: 80px;
 }
 .image-1, .image-2, .image-3 {
-    max-height: 200px;
+    max-height: 400px;
 }
 .image-1, .image-3 {
     float: left;
@@ -65,31 +50,23 @@ section h1 {
 }
 .image-2 {
     float: right;
-    margin-left: 25px;
 }
 aside {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
     float: right;
     width: 20%;
-    height: 100%;
-        font-family: 'Gill Sans',;
     background-color: #2589bd;
     color: #ffffff;
 } 
 aside .imgaside {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 200px;
 }
 h3 {
-    margin-bottom: 10px;
     text-align: center;
 }
-p {
-    text-align: left;
-    padding: 0;
-    margin: 0;
-    padding-bottom: 20px;
+aside, p {
+    padding: 15px;
 }
