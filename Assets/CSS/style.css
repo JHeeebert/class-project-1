@@ -27,6 +27,25 @@ nav, a {
     background-size: cover;
     background-position: center;
 }
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    float: right;
+    width: 20%;
+    background-color: #2589bd;
+    color: #ffffff;
+} 
+aside .imgaside {
+    display: block;
+    margin: 10px auto;
+    max-width: 200px;
+}
+h3 {
+    text-align: center;
+}
+aside, p {
+    padding: 15px;
+}
 section {
     box-sizing: border-box;
     margin: 20px;
@@ -50,23 +69,4 @@ section h1 {
 }
 .image-2 {
     float: right;
-}
-aside {
-    margin-right: 20px;
-    padding: 20px;
-    float: right;
-    width: 20%;
-    background-color: #2589bd;
-    color: #ffffff;
-} 
-aside .imgaside {
-    display: block;
-    margin: 10px auto;
-    max-width: 200px;
-}
-h3 {
-    text-align: center;
-}
-aside, p {
-    padding: 15px;
 }
