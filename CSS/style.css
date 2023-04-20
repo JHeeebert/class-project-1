@@ -1,91 +1,79 @@
-
 /*Global-------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------*/
 * {
-    margin: 0;
+    box-sizing: border-box;
     padding: 0;
-    border: 0;
-    outline: 0;
-    vertical-align: baseline;
-    background: transparent;
-    font-family: 'Arial, sans-serif';
-    color: white;
+    margin: 0;
 
 }
-/*Header--------------------------------------------------------------------------------------------------
+/*Body--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------*/
+body {
+    width: 100%;
+}
+/*Header/NAV--------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------*/
 header {
-    display: block;
-    max-width: 100%;
-    height: 100%;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
+    color: #ffffff;
 }
-header h1 {
-    line-height: 125px;  
-    font-size: 4rem;
-}
-ul {
-font-size: medium;
-}
-/*NAV-----------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------*/
-nav {
-    padding-right: 2%;
-    margin-bottom: 0 auto;
-    float: right; 
-    list-style: none;
-    font-size: small;
-} 
-nav li {
+h1 {
     display: inline-block;
-} 
+    font-size: 48px;
+}
+nav, a {
+    display: inline-block;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    float: right;
+    padding: 10px;
+}
 .meeting{
-
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
 }
 /*Body--------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------*/
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: auto;
-    
 }
 /*Section-----------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------*/
 section {
-    display: block;
-    box-sizing: border-box;
+    margin: 20px;
+    max-width: 75%;
+    padding: 50px;
+    height: 360px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    max-width: 80%;
-    height: 100%;
-    padding: 55px;
-    margin: 10px;
-    float: left;
-
+    color: #ffffff;
 }
-section h1 {   
+section h1 {  
+    width: 50%; 
     font-size: 45px;
     line-height: 100%;
-
 }
-section p {
-    font-size: 20px;
-    padding-top: 30px;
-}
-.hright .pright {
-    text-align: left;
-}
-.hleft {
-    width: 50%;
-    margin: 0 auto;
-}
-.pright {
+.pleft, .pright {
+    padding-top: 25px;
+    font-size: 16.5px;
 }
 .pleft {
+    padding: 40px;
 }
 .image-1 {
     float: left;
-    margin-right: 25px;
+    margin-left: 25px;
     max-height: 200px;
+    padding-right: 30px ;
 }
 .image-2 {
     float: right;
@@ -99,23 +87,30 @@ section p {
 }
 /*Aside-------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------*/
+
 aside {
-    display: inline-block;
-    box-sizing: border-box;
-    background-color: #0072bb; 
-    padding: 10px;
-    margin: 10px auto;
-    max-width: 350px;
+    display: block;
+    margin: 50px;
+    padding: 20px;
+    clear: both;
+    width: 20%;
+    height: 1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    color: #ffffff;
+    float: right;
 } 
-.imgaside {
-    padding-left: 50px;
-    
+aside .imgaside {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
-aside h3 {
-    font-size: x-large;
+h3 {
+    margin-bottom: 10px;
     text-align: center;
+    padding-top: 20px;
 }
-aside p {
-    font-size: large; 
+p {
     text-align: left;
+    padding-bottom: 20px;
 }
