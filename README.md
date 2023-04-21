@@ -1,14 +1,14 @@
 # Class Project 1 Refactoring
 As a class we were tasked with refactoring code from a provided starter code 
 
-Description
+Description:
 We took a starter code that was not written in semantic HTML and refactored it to be more readable and accessible for everyone!
 
 
 Deployment issues: please advise
 
-command to run if program contains helper info
-Authors
+https://jheeebert.github.io/class-project-1/
+
 Contributors
 Joshua Hebert
 Jhebertcocktails@gmail.com
