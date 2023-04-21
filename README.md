@@ -21,6 +21,11 @@
     on GitHub can be tricky so I troubleshooted by making links in HTML- 
     match folder names with capitalization.
 
+# Screenshot
+<img src= "Assets\images\screenshot-project-1.jpg" 
+    alt= "this should be a screenshot"/>
+
+
 # Link to Repo
 [https://github.com/JHeeebert/class-project-1]
 
