@@ -37,4 +37,4 @@ Jhebertcocktails@gmail.com
 # Acknowledgments
 *Thank you Andrew and Will for teaching us the tools needed to make this happen!*
 
-                                                                                        ~Made with ❤️ by Joshua Hebert~                      
+~Made with ❤️ by Joshua Hebert~                      
