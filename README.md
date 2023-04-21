@@ -1,29 +1,17 @@
-# Class Project 1
-As a class we were tasked with refactoring code from 
+# Class Project 1 Refactoring
+As a class we were tasked with refactoring code from a provided starter code 
 
 Description
-An in-depth paragraph about your project and overview of use.
+We took a starter code that was not written in semantic HTML and refactored it to be more readable and accessible for everyone!
 
-Getting Started
-Dependencies
-Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-ex. Windows 10
-Installing
-How/where to download your program
-Any modifications needed to be made to files/folders
-Executing program
-How to run the program
-Step-by-step bullets
-code blocks for commands
-Help
-Any advise for common problems or issues.
+
+Deployment issues: please advise
 
 command to run if program contains helper info
 Authors
-Contributors names and contact info
-
-ex. Dominique Pizzie
-ex. @DomPizzie
+Contributors
+Joshua Hebert
+Jhebertcocktails@gmail.com
 
 Version History
 0.2
@@ -32,13 +20,9 @@ See commit change or See release history
 0.1
 Initial Release
 License
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+##########
 
 Acknowledgments
-Inspiration, code snippets, etc.
+Thank you Andrew and Will for teaching us the tools needed to make this happen!
 
-awesome-readme
-PurpleBooth
-dbader
-zenorocha
-fvcproductions
+Made with ❤️
