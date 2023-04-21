@@ -34,7 +34,7 @@ Jhebertcocktails@gmail.com
 # Version History
 **See commit history on GitHub Repo**
 
-# ~Acknowledgments~
+# Acknowledgments
 *Thank you Andrew and Will for teaching us the tools needed to make this happen!*
 
                                                                                         ~Made with ❤️ by Joshua Hebert~                      
